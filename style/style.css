@@ -181,6 +181,7 @@ nav {
     justify-content: space-between;
     margin: 30px;
   }
+
   .card__container .card h2 {
     font-size: 36px !important;
     max-width: 350px !important;
@@ -197,7 +198,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 200px 20px 450px 20px;
+  margin: 200px 20px;
 }
 .market img {
   width: 175px;
@@ -495,6 +496,13 @@ nav {
   .app__box img {
     margin-bottom: 1rem;
   }
+}
+.section {
+  transition: all 1s ease-in;
+}
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
 }
 /* Footer */
 footer {
